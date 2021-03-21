@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/vinculob/public_html/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp *.js $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
